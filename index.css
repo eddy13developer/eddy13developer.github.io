@@ -1,0 +1,56 @@
+.login-section,
+.task-section {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.task-details {
+    display: none;
+}
+
+.task-section h2 {
+    margin-bottom: 10px;
+}
+
+.task-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-section table th,
+.task-section table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.task-section table th {
+    background-color: #f2f2f2;
+}
+
+.task-section table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.task-section table tbody tr:hover {
+    background-color: #e9e9e9;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
